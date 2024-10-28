@@ -1,0 +1,526 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    max-width: 100%;
+    height: 100%;
+}
+
+.logo{
+    width: 100%;
+    height: 10vh;
+    padding: 50px 50px 60px 170px;
+}
+.hero-section{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    padding: 10px 50px 50px 0px;
+}
+.left-side{
+    width: 60%;
+    height: 100vh;
+    padding-left: 170px;
+}
+.left-side h1{
+    color: #202127;
+    font-family: "Poppins";
+    font-size: 54px;
+    font-weight: 600;
+    line-height: 59.4px;
+}
+.left-side .desktop{
+    width: 79%;
+    color: #202127;
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 29.45px;
+    margin: 10px 0px 0px 0px;
+    font-family: "Poppins";
+}
+.left-side .mobile{
+    display: none;
+}
+.left-side .e-mail{
+    background-color: #fafbfc;
+    border: 1px solid #8B8B8B4D;
+    margin: 20px 0px 20px 0px;
+    border-radius: 8px;
+    padding: 10px 10px 10px 25px;
+    height: 56px;
+    width: 360px;
+    background-image: url(Images/SVG/Contrrols.svg);
+    background-repeat: no-repeat;
+    background-position-x: 10px;
+    background-position-y: 19px;
+}
+::placeholder {
+    color: #90939E;
+    padding-left: 15px;
+    font-size: 14px;
+  }
+.left-side button{
+    padding: 16px 32px 16px 32px;
+    height: 56px;
+    width: 123px;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    border-radius: 8px;
+    background: linear-gradient(45deg, #03C17D 0%, #97E81C 100%);
+    cursor: pointer;
+}
+.left-side h6{
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #202127;
+    font-family: "Poppins";
+
+}
+.left-side span img{
+    padding-top: 10px;
+}
+.left-side span{
+    line-height: 20px;
+    font-weight: 700;
+    font-family: "Poppins";
+}
+.right-side{
+    width: 40%;
+    height: 100vh;
+    padding-left: 6px;
+}
+.right-side img{
+    margin: 0;
+    width: 600px;
+height: 450px;
+margin-top: -60px;
+}
+.div2{
+    width: 100%;
+    height: 30vh;
+    background-color: #FAFBFC;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid #8B8B8B4D;
+    border-bottom: 0px;
+    padding: 0px 170px 0px 170px;
+}
+.div2 .contianer-item1{
+    text-align: center;
+    padding: 40px 0px 40px 0px;
+}
+.div2 .contianer-item1 h5{
+font-size: 21px;
+font-weight: 700;
+line-height: 26.25px;
+text-align: center;
+margin-top: 10px;
+font-family: "Poppins";
+}
+.div2 .contianer-item1 p{
+    font-family: "Poppins";
+font-size: 16px;
+font-weight: 400;
+line-height: 28.8px;
+text-align: center;
+width: 326.67px;
+}
+.div3{
+    width: 100%;
+    height: 20vh;
+    background-color: #FAFBFC;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #8B8B8B4D;
+    border-top: 0px;
+    padding: 10px 50px 10px 50px;
+}
+.div3 p{
+    font-family: "Poppins";
+font-size: 19px;
+font-weight: 400;
+line-height: 28.8px;
+text-align: center;
+width: 71%;
+padding: 50px 100px 30px 100px;
+}
+.div3 h6{
+    font-family: "Poppins";
+font-size: 18px;
+font-weight: 600;
+line-height: 22.5px;
+text-align: center;
+padding-bottom: 30px;
+}
+.div4{
+    width: 100%;
+    height: 5%;
+    display: flex;
+padding: 30px 20px 30px 20px;
+justify-content: space-between;
+align-items: center;
+padding: 15px 50px 15px 50px;
+}
+.div4 h6{
+color: #90939E;
+font-family: "Poppins";
+font-size: 15px;
+font-weight: 600;
+line-height: 21px;
+text-align: left;
+}
+.div4 .image{
+    padding-right: 5px;
+}
+@media only screen and (max-width: 1200px) and (min-width: 992px) {
+    
+    .logo{
+        padding-left: 100px;
+}
+    .left-side{
+        width: 50%;
+        height: 100vh;
+        padding-left: 100px;
+    }
+    .left-side h1{
+        font-family: "Poppins";
+font-size: 42px;
+font-weight: 700;
+line-height: 46.2px;
+    }
+    .left-side .desktop{
+        width: 100%;
+        color: #202127;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 29.45px;
+        margin: 10px 0px 0px 0px;
+        font-family: "Poppins";
+    }
+    .left-side .e-mail{
+        width: 100%;
+    }
+    .left-side button{
+        width: 100%;
+    }
+    .left-side h6{
+        font-size: 18px;
+        line-height: 1.1em;
+        font-weight: 400;
+    }
+    .right-side{
+        width: 50%;
+        height: 100vh;
+        padding-left: 80px;
+    }
+    .right-side img{
+        width: 450px;
+    height: 450px;
+    margin-top: -60px;
+    }
+    .div2{
+        padding: 0px 100px 0px 100px;
+    }
+    .div2 .contianer-item1{
+        text-align: center;
+        padding: 30px 0px 30px 0px;
+    }
+    .div3{
+     padding: 10px 30px 10px 30px;
+    }
+    .div3 p{
+        font-family: "Poppins";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.1em;
+    width: 100%;
+    padding: 50px 100px 30px 100px;
+    }
+  }
+  @media only screen and (max-width: 992px) and (min-width: 768px) {
+    .logo{
+        padding-left: 70px;
+}
+    .left-side{
+        width: 50%;
+        height: 100vh;
+        padding-left: 70px;
+    }
+    .left-side h1{
+        font-family: "Poppins";
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 1.1em;
+    }
+    .left-side .desktop{
+        width: 100%;
+        color: #202127;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 29.45px;
+        margin: 10px 0px 0px 0px;
+        font-family: "Poppins";
+    }
+    .left-side .e-mail{
+        width: 100%;
+    }
+    .left-side button{
+        width: 100%;
+    }
+    .left-side h6{
+        font-size: 16px;
+        line-height: 1.1em;
+        font-weight: 500;
+        text-align: center;
+    }
+    .right-side{
+        width: 50%;
+        height: 100vh;
+        padding-left: 80px;
+    }
+    .right-side img{
+        width: 400px;
+        height: 400px;
+        margin-top: -60px;
+        object-fit: contain;
+    }
+    .div2{
+        width: 100%;
+        display: flex;
+        padding: 0px 0px 0px 0px;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .div2 .contianer-item1{
+        text-align: center;
+        padding: 30px 0px 30px 0px;
+    }
+    .contianer-item1:nth-child(3){
+        display: none;
+    }
+    .div3{
+     padding: 10px 30px 10px 30px;
+    }
+    .div3 p{
+        font-family: "Poppins";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.1em;
+    width: 100%;
+    padding: 50px 70px 30px 70px;
+    }
+  }
+  @media only screen and (max-width: 768px) and (min-width: 500px) {
+    .logo{
+        width: 100%;
+        height: 7vh;
+        padding: 30px 30px 0px 30px;
+}
+    .logo img{
+        display: block;
+        width: 104px;
+        height: 30px;
+    }
+    .hero-section{
+        display: flex; 
+        flex-direction: column; 
+        width: 100%;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+        /* padding: 0px 30px 0px 30px; */
+    }
+    .left-side{
+        width: 100%;
+        height: 40vh;
+        padding: 20px 30px;
+    }
+    .left-side h1{
+        font-family: "Poppins";
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 1.1em;
+    }
+    .left-side .desktop{
+        width: 100%;
+        color: #202127;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 29.45px;
+        margin: 10px 0px 0px 0px;
+        font-family: "Poppins";
+    }
+    .left-side .e-mail{
+        width: 100%;
+    }
+    .left-side button{
+        width: 100%;
+    }
+    .left-side h6{
+        font-size: 16px;
+        line-height: 1.1em;
+        font-weight: 500;
+        text-align: center;
+    }
+    .right-side{
+        width: 100%;
+        height: 40vh;
+        padding: 20px 30px;
+    }
+    .right-side img{
+        width: 400px;
+        height: 400px;
+        /* margin-top: -60px; */
+        object-fit: contain;
+        margin: auto;
+        display: block;
+    }
+    .div2{
+        width: 100%;
+        height: 80vh;
+        display: flex;
+        flex-direction: column;
+        padding: 20px 30px;
+    }
+    .div2 .contianer-item1{
+        text-align: center;
+        padding: 30px 0px 30px 0px;
+    }
+   
+    .div3{
+     padding: 10px 30px 10px 30px;
+    }
+    .div3 p{
+        font-family: "Poppins";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.1em;
+    width: 100%;
+    padding: 50px 70px 30px 70px;
+    }
+  }
+@media only screen and (max-width: 490px) 
+{
+    html,body{
+        min-height:100vh;
+        width: 100%;
+    }
+    .logo{
+        width: 100%;
+        height: 7vh;
+        padding: 40px 30px 0px 30px;
+}
+    .logo img{
+        display: block;
+        width: 104px;
+        height: 30px;
+        margin: auto;
+    }
+    .hero-section{
+        display: flex; 
+        flex-direction: column-reverse; 
+        width: 100%;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+        padding: 0px 30px 0px 30px;
+    }
+    .left-side{
+        width: 100%;
+        height: 50vh;
+        padding-left: 0px;
+        margin-top: 30px;
+    }
+    .left-side h1{
+        font-family: "Poppins";
+font-size: 30px;
+font-weight: 600;
+line-height: 1.1em;
+text-align: center;
+    }
+    .left-side .desktop{
+        display: none;
+    }
+    .left-side .mobile{
+        display: block;
+        font-family: "Poppins";
+font-size: 16px;
+font-weight: 400;
+line-height: 26.1px;
+text-align: center;
+width: 100%;
+padding-top: 10px;
+    }
+    .left-side .h1hide{
+        display: none;
+    }
+    .left-side .e-mail{
+        width: 100%;
+    }
+    .left-side button{
+        width: 100%;
+    }
+    .left-side h6{
+        text-align: center;
+        line-height: 1.2em;
+    }
+    .right-side{
+        width: 100%;
+        height: 50vh;
+  }
+  .right-side img{
+    width: 100%;
+    height: 400px;
+    margin-top: 0px;
+    object-fit: contain;
+  }
+  .div2{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 30px;
+    margin-top: 50px;
+  }
+  .div2 .contianer-item1{
+    padding: 15px;
+  }
+  .div3{
+    width: 100%;
+    height: 30vh;
+    padding: 15px;
+  }
+  .div3 p{
+    width: 100%;
+    font-size: 16px;
+    font-family: "poppins";
+    text-align: center;
+    padding: 0px 0px 20px 0px;
+  }
+  .div3 h6{
+    text-align: center;
+    padding: 0px 0px 20px 0px;
+  }
+  .div4 {
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 30px;
+  }
+  .div4 h6{
+    padding: 10px 0px 10px 0px;
+  }
+}
